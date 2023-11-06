@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-block{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 153, 87, 0.705);
+   
+}
+.container{
+    width: 35%;
+    height: 600px;
+    margin: auto;
+    box-shadow: rgba(122, 115, 81, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: 5px solid;
+    border-radius: 18px;
+}
+div{
+    color: #2023d1;
+}
+
+.result{
+    box-shadow: rgba(90, 64, 163, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    text-align: right;
+    padding-right: 10px;
+    height: 100px;
+    margin: 10px;
+    font-size: 65px;
+    border: 5px solid;
+    border-radius: 18px;
+}
+
+.clear{
+    grid-area: clear;
+}
+
+.backspace{
+    grid-area: backspace;
+}
+
+.divide{
+    grid-area: divide;
+
+}
+
+.seven{
+    grid-area:seven;
+}
+.eight{
+    grid-area:eight;
+}
+
+.nine{
+    grid-area:nine;
+}
+.multiply{
+    grid-area:multiply;
+}
+.four{
+    grid-area:four;
+}
+.five{
+    grid-area:five;
+}
+.six{
+    grid-area:six;
+}
+.subtract{
+    grid-area:subtract;
+}
+
+
+.one{
+    grid-area:  one;
+}
+
+.two{
+    grid-area:two;  
+}
+
+.three{
+    grid-area:  three;
+}
+
+.add{
+    grid-area:add;
+}
+
+
+.zero{
+    grid-area:zero;
+}
+.equal{
+    grid-area:equal;
+}
+
+
+
+.button{
+    margin-top: 10px;
+    margin: 10px;
+    height: 450px;
+    border: 5px solid;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-areas: "clear clear backspace divide"
+                         "seven eight nine multiply"
+                         "four five six subtract"
+                         "one two three add"
+                         "zero zero equal equal";
+                    
+
+}
+button{
+    margin: 10px;
+    border-radius: 18px;
+    box-shadow: 3px;
+   background-color: black;
+   cursor: pointer;
+ box-shadow: 10px 10px 10px rgb(117, 9, 206);
+ 
+    
+}
+.clear:hover {
+    background-color:red;
+} 
+.equal:hover{
+    background-color: rgb(32, 165, 32);
+}
+
+.backspace:hover{
+    background-color: rgb(161, 69, 26);
+}
+.button>button{
+    font-size: 30px;
+   
+}
+span{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+   box-sizing: border-box;
+}
+
+.coffee-container {
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient(#b37f55,#7e4314,#967259);
+    height: 75px;
+    align-items: c;
+}
+.coffee-container .title {
+    color: #e2d7d7;
+    text-shadow: 3px 1px 5px #423614;
+    font-size:50px;
+}
+
+.background-container {
+    background-image: url("https://image.shutterstock.com/image-photo/coffee-cup-beans-on-old-260nw-547416751.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+.total-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+.item-container {
+    background-color: #edd8ca;
+    width: 480px;
+    height: 380px;
+    border-radius: 10px;
+}
+.item-heading {
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 15px;
+    color: #cfb363;
+}
+.item1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.para1 {
+    padding-left: 15px;
+    padding-right: 0px;
+    font-size: 20px;
+}
+.para2 {
+    padding-right: 100px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.para3 {
+    padding-right: 170px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+.light-foam {
+    padding-top: 15px;
+    padding-left: 60px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+.almond-milk {
+    padding-top: 15px;
+    padding-left: 60px;
+}
+.double-es {
+    padding-top: 10px;
+}
+.butter {
+    padding-top: 15px;
+    padding-left: 65px;
+}
+.cappucin1 {
+    padding-top: 0px;
+}
+.croissant {
+    padding-top: 0px;
+}
+
+.name-container {
+    background-color: #edd8ca;
+    width: 550px;
+    height: 150px;
+    border-radius: 10px;
+}
+.name-line {
+    color: #cfb363;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.name-input {
+    width: 450px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #edd8ca;
+    border-color: #cfb363;
+    font-size: 25px;
+}
+.name-label {
+    position: absolute;
+    left: 80px;
+    top: -9px;
+    background-color: #edd8ca;
+    color: #cfb363;
+    padding-top: 30px;
+}
+.label-container {
+    position: relative;
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.card-label {
+    left: 110px;
+}
+.row-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.payment-container {
+    background-color: #edd8ca;
+    width: 550px;
+    height: 210px;
+    border-radius: 10px;
+}
+.cvv-input {
+    width: 250px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #edd8ca;
+    border-color: #cfb363;
+    font-size: 25px;
+}
+.total-bill-details {
+    padding: 65px;
+    margin: 50px;
+}
+
+.bill-details {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+.text-style {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+}
+.text1 {
+    font-size: 35px;
+    color: #fff;
+}
+
+.place-order-btn {
+    margin-left: 200px;
+    width: 65vw;
+    height: 45px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #e2b595;
+    border: none;
+    font-weight: 500;
+}
+.cofeelogo {
+    height: 50px;
+}
